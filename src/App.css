@@ -1,5 +1,10 @@
 #root {
-  max-width: 1280px;
+  --pink: #ce89c3;
+  --black: #000000;
+  --gray: #b0acaa;
+  --yellow: #dde788;
+  --container: 1400px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
