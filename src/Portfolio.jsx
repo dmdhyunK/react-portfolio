@@ -88,20 +88,17 @@ export default function Portfolio() {
     {
       category: "Planning & UX",
       tools: "Notion / Figma / Docs",
-      description: "사용자 행동 데이터를 분석해 UX 개선 방향 설정. 행사 홍보 요소 분석을 기반으로 콘텐츠 구조와 시각적 요소 설계",
-      icon: "📋"
+      description: "사용자 행동 데이터를 분석해 UX 개선 방향 설정. 행사 홍보 요소 분석을 기반으로 콘텐츠 구조와 시각적 요소 설계"
     },
     {
       category: "Visual & Motion",
       tools: "Blender / Premiere / AE",
-      description: "3D 오브젝트로 콘텐츠 시각화. 영상 편집 및 모션 그래픽 연출. 비주얼 컨셉 보드와 스토리보드 제작",
-      icon: "🎬"
+      description: "3D 오브젝트로 콘텐츠 시각화. 영상 편집 및 모션 그래픽 연출. 비주얼 컨셉 보드와 스토리보드 제작"
     },
     {
       category: "Tech & Prototyping",
       tools: "Unity / HTML / CSS / JS / React",
-      description: "2D/3D/XR 게임 제작. 프로젝트 웹사이트 개발·배포. React 기반 포트폴리오 사이트 제작",
-      icon: "⚡"
+      description: "2D/3D/XR 게임 제작. 프로젝트 웹사이트 개발·배포. React 기반 포트폴리오 사이트 제작"
     }
   ];
 
@@ -118,6 +115,7 @@ export default function Portfolio() {
           --pink: #ce89c3;
           --yellow: #dde788;
           --gray: #b0acaa;
+          --black: #000000;
         }
         
         .text-pink { color: var(--pink); }
