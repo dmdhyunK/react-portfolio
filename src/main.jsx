@@ -10,7 +10,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter basename="/react-portfolio/"> 
       {/* 라우터로 앱을 감싸기 */}
       {/* basename에 Repository 경로를 추가 */}
-      <Portfolio />
+      <App />
     </BrowserRouter>
   </StrictMode>,
 )
