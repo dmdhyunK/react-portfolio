@@ -1,6 +1,7 @@
 {
   "name": "react-portfolio",
   "private": true,
+  "homepage": "https://dmdhyunk.github.io/react-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
+    "lucide-react": "^0.553.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.8.2"
