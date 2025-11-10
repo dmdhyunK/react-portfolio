@@ -48,9 +48,6 @@ export default function Portfolio() {
               </div>
               <p className="label">@ 김지현</p>
               <p className="profile-title">Visualizing planner</p>
-              <p className="profile-description">
-                목적을 중심으로 경험을 설계하는 기획자
-              </p>
               
               <div className="education">
                 <p className="label">EDUCATION</p>
@@ -62,10 +59,10 @@ export default function Portfolio() {
                   <p className="education-period">2024-2026</p>
                   <p className="education-school">KAYWON UNIVERSITY</p>
                 </div>
-                <div className="education-item">
+                {/* <div className="education-item">
                   <p className="education-period">2027-2029</p>
                   <p className="education-school">HONGIK UNIVERSITY</p>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -75,6 +72,7 @@ export default function Portfolio() {
               <div className="experience-section">
                 <h4 className="experience-year">2025</h4>
                 <ul className="experience-list">
+                  <li>AR/VR 콘텐츠 실무 5조 PD</li>
                   <li>졸업 준비 위원회 영상팀 영상감독</li>
                   <li>커뮤니케이션 디자인 국제 공모전 입선</li>
                   <li>계원예대 대학일자리센터 서포터즈</li>
@@ -154,24 +152,38 @@ export default function Portfolio() {
           <div className="skills-grid">
             <div className="skill-card">
               <h3 className="skill-title">Planning & UX</h3>
-              <p className="skill-tools">Notion / Figma / Docs</p>
+              <p className="skill-tools">Notion / Figma / Excel / Docs</p>
+              <h4>
+                사용자 행동 데이터를 분석해 UX 개선 방향 설정<br/>
+                행사 흥미 요소 분석을 기반으로 콘텐츠 구조와 시각적 요소 설계<br/>
+                엑셀 내 정보처리에 필요한 도구를 활용해 자료를 처리
+              </h4>
             </div>
 
             <div className="skill-card">
               <h3 className="skill-title">Visual & Motion</h3>
               <p className="skill-tools">Blender / Premiere / AE</p>
+              <h4>
+                3D 오브젝트 콘텐츠 시각화<br/>
+                영상 편집 및 모션 그래픽 연출<br/>
+                비주얼 컨셉 보드와 스토리보드 제작<br/>
+              </h4>
             </div>
 
             <div className="skill-card">
               <h3 className="skill-title">Tech & Prototyping</h3>
               <p className="skill-tools">Unity / React / HTML/CSS/JS</p>
+              <h4>
+                2D/3D/XR 게임 제작<br/>
+                프로젝트 웹사이트 개발&배포<br/>
+                React 기반 포트폴리오 사이트 제작<br/>
+              </h4>
             </div>
           </div>
 
           <div className="skills-outro">
             <p>
-              앞으로도 저는 프로젝트의 본질을 찾고,<br/>
-              그것을 사용자가 체감할 수 있는 경험으로 만드는 기획자로 성장하고 싶습니다.
+              프로젝트의 본질을 찾고, 사용자가 체감할 수 있는 경험으로 만드는 기획자로 성장 중입니다.
             </p>
           </div>
         </div>
@@ -197,7 +209,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-content">
-          <div className="footer-copyright">© 2024 Kim Jihyun</div>
+          <div className="footer-copyright">© 2025 Kim Jihyun</div>
           <div className="footer-links">
             <a href="#about">About</a>
             <a href="#work">Work</a>
